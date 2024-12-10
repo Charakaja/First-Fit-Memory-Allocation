@@ -51,7 +51,7 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ---
 
-## **Example Output**
+## **Output**
 ### **Input**:
 - Memory Blocks: `[100, 500, 200, 300, 600]`
 - Processes: `[212, 417, 112, 426]`
