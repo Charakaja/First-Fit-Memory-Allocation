@@ -41,7 +41,7 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ## **Project Structure**
 ```
-![First Fit Algorithm Flow Chart](image_url)
+![First Fit Algorithm Flow Chart]([image_url](https://github.com/Charakaja/First-Fit-Memory-Allocation/blob/main/First%20Fit%20Flow1.png?raw=true))
 
 
 # Memory blocks (sizes in KB)
