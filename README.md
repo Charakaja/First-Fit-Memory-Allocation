@@ -69,21 +69,11 @@ Block 1: 100 KB remaining
 Block 2: 176 KB remaining
 Block 3: 200 KB remaining
 Block 4: 300 KB remaining
-Block 5: 183 KB remaining
-
+Block 5: 183 KB remaining.
+```
 ---
 
-## **Technologies Used**
-- **Programming Language**: Python
-- **Tools**: Visual Studio Code, PyCharm
-- **Testing Framework**: Manual and automated test cases
 
----
-
-## **Contributions**
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-
----
 
 ## **License**
 This project is open-source and licensed under the MIT License.
