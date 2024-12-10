@@ -53,17 +53,23 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ## **Example Output**
 ### **Input**:
-- Memory Blocks: `[50, 200, 150, 300, 100]`
-- Processes: `[100, 10, 300, 200]`
+- Memory Blocks: `[100, 500, 200, 300, 600]`
+- Processes: `[212, 417, 112, 426]`
 
 ### **Output**:
 ```
-Process 1 allocated in Block 2
-Process 2 allocated in Block 1
-Process 3 allocated in Block 4
-Process 4 not allocated
-Remaining Memory: [50, 100, 150, 0, 100]
-```
+Process Allocation Results:
+Process 1 (212 KB) allocated to Block 2
+Process 2 (417 KB) allocated to Block 5
+Process 3 (112 KB) allocated to Block 2
+Process 4 (426 KB) could not be allocated
+
+Final Memory Block Status:
+Block 1: 100 KB remaining
+Block 2: 176 KB remaining
+Block 3: 200 KB remaining
+Block 4: 300 KB remaining
+Block 5: 183 KB remaining
 
 ---
 
