@@ -71,7 +71,7 @@ for i, block in enumerate(memory_blocks):
     print(f"Block {i + 1}: {block} KB remaining")
 
 ```
-![First Fit Algorithm Flow Chart]([image_url](https://github.com/Charakaja/First-Fit-Memory-Allocation/blob/main/First%20Fit%20Flow1.png?raw=true))
+![First Fit Algorithm Flow Chart](https://github.com/Charakaja/First-Fit-Memory-Allocation/blob/main/First%20Fit%20Flow1.png?raw=true)
 ---
 
 ## **Output**
