@@ -41,6 +41,9 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ## **Project Structure**
 ```
+![First Fit Algorithm Flow Chart](image_url)
+
+
 # Memory blocks (sizes in KB)
 memory_blocks = [100, 500, 200, 300, 600]
 
