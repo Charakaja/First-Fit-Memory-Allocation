@@ -41,10 +41,6 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ## **Project Structure**
 ```
-markdown
-![First Fit Algorithm Flow Chart]([image_url](https://github.com/Charakaja/First-Fit-Memory-Allocation/blob/main/First%20Fit%20Flow1.png?raw=true))
-
-
 # Memory blocks (sizes in KB)
 memory_blocks = [100, 500, 200, 300, 600]
 
@@ -75,7 +71,7 @@ for i, block in enumerate(memory_blocks):
     print(f"Block {i + 1}: {block} KB remaining")
 
 ```
-
+![First Fit Algorithm Flow Chart]([image_url](https://github.com/Charakaja/First-Fit-Memory-Allocation/blob/main/First%20Fit%20Flow1.png?raw=true))
 ---
 
 ## **Output**
