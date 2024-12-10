@@ -1,8 +1,3 @@
-# First-Fit-Memory-Allocation
-Implementation of the First Fit Memory Allocation algorithm in Python.
-Here's a sample **README.md** file for your **First Fit Memory Allocation** project:
-
----
 
 # **First Fit Memory Allocation**
 
