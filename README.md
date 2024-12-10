@@ -41,12 +41,35 @@ The **First Fit Algorithm** allocates the first available memory block that fits
 
 ## **Project Structure**
 ```
-├── first_fit.py          # Python script for the First Fit Algorithm
-├── README.md             # Project information and instructions
-├── flowchart.png         # Flowchart illustrating the algorithm
-├── documentation/
-│   ├── report.pdf        # Detailed report of the project
-│   ├── testing_results/  # Folder containing testing screenshots
+# Memory blocks (sizes in KB)
+memory_blocks = [100, 500, 200, 300, 600]
+
+# Process sizes (in KB)
+processes = [212, 417, 112, 426]
+
+# Store allocation results
+allocations = [-1] * len(processes)  # -1 means not allocated
+
+# First Fit Algorithm Simulation
+for i, process in enumerate(processes):
+    for j, block in enumerate(memory_blocks):
+        if process <= block:  # Check if the block can fit the process
+            allocations[i] = j  # Assign the block index to the process
+            memory_blocks[j] -= process  # Reduce the size of the block
+            break  # Move to the next process
+
+# Output Results
+print("Process Allocation Results:")
+for i, process in enumerate(processes):
+    if allocations[i] != -1:
+        print(f"Process {i + 1} ({process} KB) allocated to Block {allocations[i] + 1}")
+    else:
+        print(f"Process {i + 1} ({process} KB) could not be allocated")
+
+print("\nFinal Memory Block Status:")
+for i, block in enumerate(memory_blocks):
+    print(f"Block {i + 1}: {block} KB remaining")
+
 ```
 
 ---
