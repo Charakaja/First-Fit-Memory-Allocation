@@ -99,7 +99,7 @@ Block 5: 183 KB remaining.
 
 
 ## **License**
-This project is open-source and licensed under the MIT License.
+This project is open-source.
 
 ---
 
